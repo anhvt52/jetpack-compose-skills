@@ -1,0 +1,9 @@
+schema_version: v1
+name: modern-jetpack-compose
+display_name: Modern Jetpack Compose
+description: >
+  Reviews and generates modern Android Jetpack Compose code following current
+  best practices. Covers state management, side effects, recomposition stability,
+  navigation, Material 3 design, accessibility, and performance.
+instructions_file: ../SKILL.md
+version: "1.0"

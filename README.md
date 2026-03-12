@@ -37,21 +37,37 @@ practices. It helps agents:
 
 ## Installation
 
-### Claude Code
+### Recommended — npx (Claude Code, Cursor, Codex, Gemini)
 
-Add to your `CLAUDE.md` or project settings:
-
-```
-Use the skill at: modern-jetpack-compose/SKILL.md
+```bash
+npx skills add https://github.com/anhvt52/jetpack-compose-skills
 ```
 
-Or reference it directly when prompting:
+This installs the skill for all detected agents on your machine. You can also scope it:
+
+```bash
+# Project-level only
+npx skills add https://github.com/anhvt52/jetpack-compose-skills
+
+# Global (all your projects)
+npx skills add https://github.com/anhvt52/jetpack-compose-skills -g
+```
+
+If `npx` is unavailable, install Node.js first:
+
+```bash
+brew install node
+```
+
+### Manual — Claude Code
+
+Clone the repo and add to your project's `CLAUDE.md`:
 
 ```
-Using the modern-jetpack-compose skill, review HomeScreen.kt for issues.
+Use the skill at: path/to/modern-jetpack-compose/SKILL.md
 ```
 
-### Cursor / Codex / OpenAI-compatible platforms
+### Manual — Cursor / Codex / OpenAI-compatible platforms
 
 Use the config at `modern-jetpack-compose/agents/openai.yaml`.
 

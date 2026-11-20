@@ -1,5 +1,9 @@
 # Modern Jetpack Compose — Agent Skill
 
+<!-- yarkr:badges:start -->
+[![Indexed on Yarkr](https://api.yarkr.com/functions/v1/api/api/v1/badges/repos/anhvt52/jetpack-compose-skills/version.svg)](https://yarkr.com/arks/anhvt52/jetpack-compose-skills)
+<!-- yarkr:badges:end -->
+
 An agent skill for writing, reviewing, and reasoning about modern Android UI code
 using Jetpack Compose. Compatible with Claude Code, Cursor, Codex, and any platform
 that supports the Agent Skills format.
@@ -91,6 +95,38 @@ Use the skill at: path/to/modern-jetpack-compose/SKILL.md
 Use the config at `modern-jetpack-compose/agents/openai.yaml`.
 
 ---
+
+<!-- yarkr:install:start -->
+## Install with Yarkr
+
+This repo is indexed on [Yarkr](https://yarkr.com/arks/anhvt52/jetpack-compose-skills) as the ark [anhvt52/jetpack-compose-skills](https://yarkr.com/arks/anhvt52/jetpack-compose-skills), so its skills install into Claude Code, Codex, Cursor and other agent harnesses with one command.
+
+### CLI
+
+Install the whole ark, which Yarkr keeps equal to this repo:
+
+```bash
+npx yarkr-cli sync anhvt52/jetpack-compose-skills
+```
+
+Or add individual skills:
+
+```bash
+npx yarkr-cli add skill:anhvt52/jetpack-compose-skills/modern-jetpack-compose
+```
+
+No Node.js? `curl -fsSL https://yarkr.com/install.sh | sh` (macOS, Linux) or `irm https://yarkr.com/install.ps1 | iex` (Windows PowerShell) installs `yarkr` as a standalone binary; then type `yarkr` in place of `npx yarkr-cli`.
+
+### MCP
+
+Connect your agent to the ark over MCP:
+
+```bash
+npx yarkr-cli mcp add anhvt52/jetpack-compose-skills
+```
+
+Or point any MCP client at `https://api.yarkr.com/functions/v1/api/mcp/o/anhvt52/jetpack-compose-skills`.
+<!-- yarkr:install:end -->
 
 ## Target Platform
 
